@@ -12,8 +12,8 @@ twitter_username: novadev
 github_username:  znovadev
 
 # 主题
-# theme: minima
-remote_theme: cotes2020/chirpy-starter
+theme: minima
+# remote_theme: cotes2020/chirpy-starter
 
 # 插件
 plugins:
