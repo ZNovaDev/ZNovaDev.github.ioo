@@ -1,19 +1,6 @@
-title: my blog
-author: nova
-theme: minima
-lsi: false
-safe: true
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-
 # 基本信息
 title: Nova 的技术博客
-email: nova@example.com
+email: nova_xyz@163.com
 author: Nova
 description: >-
   开发学习笔记。
