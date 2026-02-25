@@ -12,14 +12,14 @@ twitter_username: novadev
 github_username:  znovadev
 
 # 主题
-theme: minima
+# theme: minima
+remote_theme: cotes2020/jekyll-theme-chirpy
 
 # 插件
 plugins:
   # - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  # - jekyll-paginate
 
 # 分页
 # paginate: 5
@@ -38,18 +38,18 @@ kramdown:
 timezone: Asia/Shanghai
 
 # 默认值
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
+#       comments: true
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: "page"
 
 # Disqus 评论（可选）
 disqus:
