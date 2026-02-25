@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The First article"
+title: "The-First-article"
 date: 2026-02-25
 categories: [前端, 学习笔记]
 ---
