@@ -10,3 +10,76 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+# 基本信息
+title: Nova 的技术博客
+email: nova@example.com
+author: Nova
+description: >-
+  开发学习笔记。
+baseurl: ""
+url: "https://znovadev.github.io"
+
+# 社交链接
+twitter_username: novadev
+github_username:  znovadev
+
+# 主题（使用远程主题）
+remote_theme: jekyll/minima
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# 分页
+paginate: 5
+paginate_path: /page:num/
+
+# Markdown 配置
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 永久链接
+permalink: /:year/:month/:day/:title/
+
+# 时区
+timezone: Asia/Shanghai
+
+# 默认值
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# 归档插件配置（如果安装 jekyll-archives）
+jekyll-archives:
+  enabled:
+    - year
+    - categories
+    - tags
+  layouts:
+    year: archive-year
+    category: archive-category
+    tag: archive-tag
+  permalinks:
+    year: '/:year/'
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Disqus 评论（可选）
+disqus:
+  shortname: znovadev
