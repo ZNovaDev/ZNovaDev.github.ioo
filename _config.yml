@@ -3,7 +3,6 @@ author: nova
 theme: minima
 lsi: false
 safe: true
-source: [/_posts]
 incremental: false
 highlighter: rouge
 gist:
