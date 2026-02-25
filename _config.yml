@@ -11,19 +11,19 @@ url: "https://znovadev.github.io"
 twitter_username: novadev
 github_username:  znovadev
 
-# 主题（使用远程主题）
+# 主题
 theme: minima
 
 # 插件
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
+  # - jekyll-paginate
 
 # 分页
-paginate: 5
-paginate_path: /page:num/
+# paginate: 5
+# paginate_path: /page:num/
 
 # Markdown 配置
 markdown: kramdown
@@ -32,7 +32,7 @@ kramdown:
   input: GFM
 
 # 永久链接
-permalink: /:year/:month/:day/:title/
+# permalink: /:year/:month/:day/:title/
 
 # 时区
 timezone: Asia/Shanghai
